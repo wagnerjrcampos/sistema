@@ -1,12 +1,12 @@
-<?php //pesquisageral.php
+<?php //pesqpornome.php
 
 include('conexao.php');
 //select = comando de busca de dados nas tabelas
-//select * from tbl - *=todos os campos
+//select * from tbl - *=todo
 //select login,senha form tbl;
 
 
-$sql = "select * from tblprod1";
+$sql = "select * from tblprod1 where produto='banana'";
 
 $qry = mysqli_query($conn,$sql);
 
